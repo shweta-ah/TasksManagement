@@ -16,7 +16,7 @@ app.use(helmet());
 
 // CORS configuration
 app.use(cors({
-  origin: process.env.CORS_ORIGIN || 'http://localhost:3000',
+  origin: ['https://tasks-management-three-sigma.vercel.app','https://tasksmanagement-production.up.railway.app'],
   credentials: true
 }));
 
